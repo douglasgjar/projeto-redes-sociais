@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-    background: url(assets/imagens/fundo.jpg) no-repeat bottom center;
+    background: url(../assets/imagens/bg.jpg) no-repeat bottom center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -28,8 +28,7 @@ main {
     transform: translate(-50%, -50%);
     height: 627px;
     width: 311px;
-    background: url(assets/imagens/frame-iphone.png) no-repeat;
-    background-size: ;
+    background: url(../assets/imagens/frame-iphone.png) no-repeat;
 }
 
 #tela {

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Remover/esconder a rolagem*/
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;    
+}
+
+img {
+    width: 100vw;
+}
+
+a {
+    display: block;
+    background-color: rgb(53, 137, 216);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+
+a:hover {
+    color: lightgray;
+    background-color: rgb(34, 114, 189);
+}
